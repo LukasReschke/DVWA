@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<psalm
+    errorLevel="4"
+    resolveFromConfigFile="true"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="https://getpsalm.org/schema/config"
+    xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
+>
+    <projectFiles>
+        <file name="index.php" />
+        <file name="instructions.php" />
+        <file name="phpinfo.php" />
+        <file name="login.php" />
+        <file name="security.php" />
+        <file name="setup.php" />
+        <file name="ids_log.php" />
+        <file name="logout.php" />
+        <file name="about.php" />
+        <directory name="vulnerabilities" />
+        <directory name="hackable" />
+        <directory name="dvwa" />
+        <directory name="external" />
+        <ignoreFiles>
+            <directory name="vendor" />
+        </ignoreFiles>
+    </projectFiles>
+</psalm>
